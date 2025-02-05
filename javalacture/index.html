@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    
+<button class="button">click</button>
+
+<button onclick="getRandomNumber()">click</button>
+
+<script>
+
+
+
+// JavaScript provides several array methods for manipulation:
+
+// push() – Adds elements to the end.
+// pop() – Removes the last element.
+// shift() – Removes the first element.
+// unshift() – Adds elements to the beginning.
+// concat() – Merges two or more arrays.
+// join() – Combines elements into a string.
+// slice() – Returns a shallow copy of a portion.
+// splice() – Changes array content by adding/removing elements.
+// forEach() – Executes a function on each element.
+// map() – Creates a new array by applying a function.
+// filter() – Filters elements based on a condition.
+// reduce() – Reduces array to a single value.
+// reduceRight() – Same as reduce() but processes from right to left.
+// find() – Returns the first element that satisfies a condition.
+// indexOf() – Finds the index of a specific element.
+// includes() – Checks if an element exists in the array.
+// some() – Tests if any element passes a condition.
+// every() – Tests if all elements pass a condition.
+// sort() – Sorts elements in place.
+// reverse() – Reverses the array.
+// fill() – Fills elements with a specified value.
+// findIndex() – Finds the index of the first element that satisfies a condition.
+// These methods help to manipulate arrays efficiently.
+
+
+// 1. push()
+//     let arr = [1, 2, 3];
+// arr.push(4); // arr becomes [1, 2, 3, 4]
+
+// let arr = [1,2,3,4,5];
+// arr.push(6,7,8);
+// console.log(arr);
+
+// 2. pop()
+
+// let arr = [1, 2, 3];
+// let last = arr.pop(); // arr becomes [1, 2], last is 3
+
+
+// 3. shift()
+// let arr = [1, 2, 3];
+// let first = arr.shift(); // arr becomes [2, 3], first is 1
+// let b = [1,2,3,4,5];
+// b.shift();
+// console.log(b);
+
+// 4. unshift()
+// let arr = [1, 2, 3];
+// arr.unshift(0); // arr becomes [0, 1, 2, 3]
+// let a = [2,3,4,5];
+// a.unshift(10,11,12);
+// console.log(a);
+
+// 5. concat()
+// let arr1 = [1, 2];
+// let arr2 = [3, 4];
+// let merged = arr1.concat(arr2); // merged becomes [1, 2, 3, 4]
+
+// let a = [1,2,3];
+// let b = [4,5,6];
+//  let merged = a.concat(b);
+//  console.log(merged);
+
+// 6. join()
+// let arr = [1, 2, 3];
+// let joined = arr.join('-'); // "1-2-3"
+
+// let a = [1,2,3];
+// let joined = a.join('hello');
+// console.log(joined);
+
+// 7. slice()
+// let arr = [1, 2, 3, 4];
+// let sliced = arr.slice(1, 3); // sliced becomes [2, 3]
+
+// let a = [1,2,3,4,5];
+//  let sliced = a.slice(2);
+//  console.log(sliced);
+
+// 8. splice()
+// let arr = [1, 2, 3, 4];
+// arr.splice(1, 2, 5, 6); // arr becomes [1, 5, 6, 4]
+// let arr = [1,2,3,4,5];
+// arr .splice(1,2,5);
+// console.log(arr);
+
+// 9. forEach()
+// let arr = [1, 2, 3];
+// arr.forEach((item, index) => {
+//   console.log(index, item);
+// });
+
+// 10. map()
+// let arr = [1, 2, 3];
+// let squared = arr.map(x => x * x); // squared becomes [1, 4, 9]
+
+// let arr = [1,2,3];
+
+// let aquared = arr.map(x => x + x);
+// console.log(aquared);
+
+// 11. filter()
+// let arr = [1,2,3,4,5];
+// let even = arr.filter(x => x % 2 === 0);
+// console.log(even);
+// const words = ['apple', 'banana','cherry', 'date', 'elderberry', 'fig'];
+// const longWords = words.filter(x => x.length >= 5);
+// console.log(longWords)
+
+//   function simpleFilter(array){
+//     let result = [];
+//     for(let i = 0; i < array.length; i++){
+//         let x = array[i];
+//         let divisionResult = x / 2;
+
+//         if(x % 2 === 0){
+//             result.push({value: x, devidedby2: divisionResult});
+//         }
+//     }
+
+//     return result;
+//   }
+
+//   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   let even = simpleFilter(arr);
+//   console.log(even);
+  
+
+// 12. reduce()
+
+// let arr = [1, 2, 3,];
+// let sum = arr.reduce((acc, curr) => acc + curr, 0); // sum is 6
+// console.log(sum);
+
+
+// let arr = [1,2,3];
+// let sum = arr.reduce((acc, curr) => acc + curr, 10);
+// console.log(sum);
+
+
+
+
+
+</script>
+<script src="script.js"></script>
+
+</body>
+</html>
